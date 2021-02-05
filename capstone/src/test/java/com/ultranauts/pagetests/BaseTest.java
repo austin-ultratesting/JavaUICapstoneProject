@@ -1,5 +1,7 @@
 package com.ultranauts.pagetests;
 
+import java.util.concurrent.TimeUnit;
+
 import com.ultranauts.javapage.Page;
 
 import org.openqa.selenium.WebDriver;
@@ -29,6 +31,8 @@ public abstract class BaseTest {
  
         //Maximize Window
         driver.manage().window().maximize();
+
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
  
         //Instantiate the Page Class
         page = new Page(driver,wait);

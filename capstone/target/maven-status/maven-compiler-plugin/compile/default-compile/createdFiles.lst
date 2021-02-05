@@ -3,4 +3,4 @@ com\ultranauts\javaui\HomePage.class
 com\ultranauts\javapage\BasePage.class
 com\ultranauts\javaui\WebPage.class
 com\ultranauts\javaui\AutoCompletePage.class
-com\ultranauts\javaui\TestPage.class
+com\ultranauts\javaui\SamplePage.class

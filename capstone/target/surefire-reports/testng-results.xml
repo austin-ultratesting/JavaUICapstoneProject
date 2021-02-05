@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-05T06:38:56 CST" name="Practice Suite" finished-at="2021-02-05T06:39:10 CST" duration-ms="13935">
+    <groups>
+    </groups>
+    <test started-at="2021-02-05T06:38:56 CST" name="Test Basics 1" finished-at="2021-02-05T06:39:10 CST" duration-ms="13935">
+      <class name="com.ultranauts.pagetests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ultranauts.pagetests.HomePageTest@69930714]" started-at="2021-02-05T06:38:56 CST" name="setup" finished-at="2021-02-05T06:39:00 CST" duration-ms="4762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HomePageTest@69930714]" started-at="2021-02-05T06:39:00 CST" name="homePageLinks" finished-at="2021-02-05T06:39:02 CST" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HomePageTest@69930714]" started-at="2021-02-05T06:39:02 CST" name="teardown" finished-at="2021-02-05T06:39:03 CST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ultranauts.pagetests.HomePageTest@69930714]" started-at="2021-02-05T06:39:03 CST" name="setup" finished-at="2021-02-05T06:39:07 CST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="autoPageForm()[pri:1, instance:com.ultranauts.pagetests.HomePageTest@69930714]" started-at="2021-02-05T06:39:07 CST" name="autoPageForm" finished-at="2021-02-05T06:39:09 CST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoPageForm -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HomePageTest@69930714]" started-at="2021-02-05T06:39:09 CST" name="teardown" finished-at="2021-02-05T06:39:10 CST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ultranauts.pagetests.HomePageTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>

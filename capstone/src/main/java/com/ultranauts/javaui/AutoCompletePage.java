@@ -27,20 +27,33 @@ public class AutoCompletePage extends BasePage{
         return this;
     }
 
+    public AutoCompletePage switchToStreetAddressTextField(){
+        sendTabKey(addressTextField);
+        return this;
+    }
+
     public AutoCompletePage clickStreetAddress2TextField(){
         click(streetAddress2TextField);
         return this;
     }
 
-    public void enterAddress(String address){
+    public AutoCompletePage switchToStreetAddress2TextField(){
+        sendTabKey(streetAddressTextField);
+        return this;
+    }
+    
+    public AutoCompletePage enterAddress(String address){
         writeText(addressTextField,address);
+        return this;
     }
 
-    public void enterStreetAddress(String streetAddress){
-        writeText(addressTextField,streetAddress);
+    public AutoCompletePage enterStreetAddress(String streetAddress) {
+        writeText(streetAddressTextField,streetAddress);
+        return this;
     }
 
-    public void enterStreetAddress2(String streetAddress2){
-        writeText(addressTextField,streetAddress2);
+    public AutoCompletePage enterStreetAddress2(String streetAddress2) {
+        writeText(streetAddress2TextField,streetAddress2);
+        return this;
     }
 }

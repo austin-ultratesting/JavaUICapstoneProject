@@ -10,41 +10,28 @@ public class HomePageTest extends BaseTest{
 
     @Test(priority = 0)
     public void homePageLinks() {
-
-        // *************PAGE INSTANTIATIONS*************
-        // HomePage homePage = new HomePage(driver, wait);
-
-        // *************PAGE METHODS********************
-        /*
-         * homePage.goToFormyProject();
-         * 
-         * homePage.clickAutoComplete() .getDriver().navigate().back();
-         * homePage.clickButtons() .getDriver().navigate().back();
-         * homePage.clickCheckBox() .getDriver().navigate().back();
-         */
         page.getInstance(HomePage.class).goToFormyProject()
                                         .clickAutoComplete()
-                                        .navigateBack()
-                                        .clickButtons()
-                                        .navigateBack()
-                                        .clickCheckBox()
-                                        .navigateBack();
+                                        .navigateToHome();
+        
+        page.getInstance(HomePage.class).clickButtons()
+                                        .navigateToHome();
+
+        page.getInstance(HomePage.class).clickCheckBox()
+                                        .navigateToHome();
     }
 
     @Test (priority = 1)
     public void autoPageForm() {
- 
-        //*************PAGE INSTANTIATIONS*************
-        HomePage homePage = new HomePage(driver, wait);
- 
-        
-        homePage.goToFormyProject();
-        
-        AutoCompletePage autoPageForm = homePage.gotoAutoComplete();
+        page.getInstance(HomePage.class).goToFormyProject()
+                                        .gotoAutoComplete();
 
-        autoPageForm.enterAddress("6712 Kingsbury Dr.");
-        autoPageForm.enterStreetAddress("Ultra Testing 123");
-        autoPageForm.enterStreetAddress2("Testing out the enter text function");
+        page.getInstance(AutoCompletePage.class).enterAddress("6712 Kingsbury Dr.")
+                                                .switchToStreetAddressTextField()
+                                                .enterStreetAddress("Ultra Testing 123")
+                                                .switchToStreetAddress2TextField()
+                                                .enterStreetAddress2("Testing out the enter text function");
+
     }
     
 }

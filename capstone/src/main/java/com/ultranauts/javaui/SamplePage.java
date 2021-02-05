@@ -4,13 +4,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestPage extends WebPage {
+/**
+* Example demonstration of using a subclass of WebPage to drive the actions of the application
+* @author Austin Bell
+*/ 
+public class SamplePage extends WebPage {
 
-    protected TestPage(WebDriver driver) {
+    protected SamplePage(WebDriver driver) {
         super(driver);
     }
 
@@ -18,7 +20,7 @@ public class TestPage extends WebPage {
         WebDriverManager.chromedriver().setup();
         WebDriverManager.firefoxdriver().setup();
 
-        TestPage examplePage = new TestPage(new ChromeDriver());
+        SamplePage examplePage = new SamplePage(new ChromeDriver());
         
         examplePage.getDriver().get("https://formy-project.herokuapp.com/keypress");
         WebElement name = examplePage.getDriver().findElement(By.id("name"));
@@ -28,11 +30,11 @@ public class TestPage extends WebPage {
         button.click();
         examplePage.getDriver().close();
         examplePage.getDriver().quit();
-/*
+        /*
         examplePage.setDriver(new FirefoxDriver());
         examplePage.getDriver().get("https://www.google.com");
         examplePage.getDriver().close();
         examplePage.getDriver().quit();
-*/
+        */
     }
 }
