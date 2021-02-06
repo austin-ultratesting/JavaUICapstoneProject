@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  
 /**
 * An abstraction used to represent any instance of a Web Page typically used by
-* a web browser. Every Test that inherits from {@link com.ultranauts.pagetests.BaseTest} will
+* a web browser. Every Test that inherits from {@link com.ultranauts.pagetests.HerokuTest} will
 * create a Page object which can then call on Pages classes following the POM Model.
 * <p>
 * The Page Classes was designed to have Generics implemented so that a user can

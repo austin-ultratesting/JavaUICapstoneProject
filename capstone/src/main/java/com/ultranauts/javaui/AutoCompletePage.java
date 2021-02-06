@@ -8,14 +8,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AutoCompletePage extends BasePage{
 
-	public AutoCompletePage(WebDriver driver, WebDriverWait driverwait) {
-        super(driver, driverwait);
+	public AutoCompletePage(WebDriver driver, WebDriverWait wait) {
+        super(driver, wait);
     }
     
     //*********Web Elements*********
+    By logoID = By.id("logo");
     By addressTextField = By.id("autocomplete");
     By streetAddressTextField = By.id("street_number");
     By streetAddress2TextField = By.id("route");
+
+    public void navigateToHome(){
+        click(logoID);
+    }
 
     public AutoCompletePage clickAddressTextField(){
         click(addressTextField);
