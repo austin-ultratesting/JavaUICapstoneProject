@@ -4,16 +4,15 @@ import java.util.concurrent.TimeUnit;
 
 import com.ultranauts.javapage.Page;
 import com.ultranauts.javaui.AutoCompletePage;
-import com.ultranauts.javaui.ButtonsPage;
-import com.ultranauts.javaui.CheckboxesPage;
 import com.ultranauts.javaui.HomePage;
 
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -21,7 +20,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class HerokuTest {
+public class HerokuAutoCompleteTests {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected Page page;
@@ -32,7 +31,11 @@ public class HerokuTest {
 
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+
+            ChromeOptions options = new ChromeOptions();
+            options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+
+            driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("edge")) {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
@@ -56,24 +59,8 @@ public class HerokuTest {
         page = new Page(driver,wait);
     }
 
-    @Test(priority = 0)
-    public void homePageLinks() {
-        page.getInstance(HomePage.class).goToFormyProject()
-                                        .clickAutoComplete();
-                                        
-        page.getInstance(AutoCompletePage.class).navigateToHome();
-        
-        page.getInstance(HomePage.class).clickButtons();
-                                        
-        page.getInstance(ButtonsPage.class).navigateToHome();
-
-        page.getInstance(HomePage.class).clickCheckBox();
-
-        page.getInstance(CheckboxesPage.class).navigateToHome();
-    }
-
-    @Test (priority = 1)
-    public void autoPageForm() {
+    @Test (priority = 0)
+    public void autoPageFormEnterText() {
         page.getInstance(HomePage.class).goToFormyProject()
                                         .gotoAutoComplete();
 
@@ -81,7 +68,15 @@ public class HerokuTest {
                                                 .switchToStreetAddressTextField()
                                                 .enterStreetAddress("Ultra Testing 123")
                                                 .switchToStreetAddress2TextField()
-                                                .enterStreetAddress2("Testing out the enter text function");
+                                                .enterStreetAddress2("Testing out the enter text function")
+                                                .switchToCityTextField()
+                                                .enterCity("Dallas")
+                                                .switchToStateTextField()
+                                                .enterState("Texas")
+                                                .switchToZipCodeTextField()
+                                                .enterZipCode("60842")
+                                                .switchToCountryTextField()
+                                                .enterCountry("United States");
     }
     
     @AfterMethod

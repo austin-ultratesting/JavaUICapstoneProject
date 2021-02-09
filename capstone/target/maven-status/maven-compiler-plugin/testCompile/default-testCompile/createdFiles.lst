@@ -1,2 +1,3 @@
-com\ultranauts\pagetests\BaseTest.class
-com\ultranauts\pagetests\HomePageTest.class
+com\ultranauts\pagetests\HerokuAutoCompleteTests.class
+com\ultranauts\pagetests\HerokuHomePageTests.class
+com\ultranauts\pagetests\HerokuUnitTests.class

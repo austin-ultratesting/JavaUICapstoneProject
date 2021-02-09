@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-06T03:31:24 CST" name="Practice Suite" finished-at="2021-02-06T03:32:01 CST" duration-ms="37360">
+  <suite started-at="2021-02-09T03:52:02 CST" name="Practice Suite" finished-at="2021-02-09T03:52:58 CST" duration-ms="56472">
     <groups>
     </groups>
-    <test started-at="2021-02-06T03:31:24 CST" name="Firefox Test" finished-at="2021-02-06T03:31:48 CST" duration-ms="24814">
-      <class name="com.ultranauts.pagetests.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.BaseTest@4f638935]" started-at="2021-02-06T03:31:24 CST" name="setup" finished-at="2021-02-06T03:31:34 CST" duration-ms="10058" status="PASS">
+    <test started-at="2021-02-09T03:52:02 CST" name="Firefox Test" finished-at="2021-02-09T03:52:24 CST" duration-ms="22420">
+      <class name="com.ultranauts.pagetests.HerokuHomePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@4387b79e]" started-at="2021-02-09T03:52:02 CST" name="setup" finished-at="2021-02-09T03:52:09 CST" duration-ms="7354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.BaseTest@4f638935]" started-at="2021-02-06T03:31:34 CST" name="homePageLinks" finished-at="2021-02-06T03:31:36 CST" duration-ms="2402" status="PASS">
+        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@4387b79e]" started-at="2021-02-09T03:52:09 CST" name="homePageLinks" finished-at="2021-02-09T03:52:13 CST" duration-ms="3573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.BaseTest@4f638935]" started-at="2021-02-06T03:31:36 CST" name="teardown" finished-at="2021-02-06T03:31:37 CST" duration-ms="1300" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@4387b79e]" started-at="2021-02-09T03:52:13 CST" name="teardown" finished-at="2021-02-09T03:52:14 CST" duration-ms="1607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.BaseTest@4f638935]" started-at="2021-02-06T03:31:37 CST" name="setup" finished-at="2021-02-06T03:31:45 CST" duration-ms="8031" status="PASS">
+      </class> <!-- com.ultranauts.pagetests.HerokuHomePageTests -->
+      <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@6e75aa0d]" started-at="2021-02-09T03:52:14 CST" name="setup" finished-at="2021-02-09T03:52:21 CST" duration-ms="6269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,38 +39,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="autoPageForm()[pri:1, instance:com.ultranauts.pagetests.BaseTest@4f638935]" started-at="2021-02-06T03:31:45 CST" name="autoPageForm" finished-at="2021-02-06T03:31:47 CST" duration-ms="1512" status="PASS">
+        <test-method signature="autoPageFormEnterText()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@6e75aa0d]" started-at="2021-02-09T03:52:21 CST" name="autoPageFormEnterText" finished-at="2021-02-09T03:52:23 CST" duration-ms="2101" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoPageForm -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.BaseTest@4f638935]" started-at="2021-02-06T03:31:47 CST" name="teardown" finished-at="2021-02-06T03:31:48 CST" duration-ms="1456" status="PASS">
+        </test-method> <!-- autoPageFormEnterText -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@6e75aa0d]" started-at="2021-02-09T03:52:23 CST" name="teardown" finished-at="2021-02-09T03:52:24 CST" duration-ms="1469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.BaseTest -->
+      </class> <!-- com.ultranauts.pagetests.HerokuAutoCompleteTests -->
     </test> <!-- Firefox Test -->
-    <test started-at="2021-02-06T03:31:48 CST" name="Chrome Test" finished-at="2021-02-06T03:32:01 CST" duration-ms="12497">
-      <class name="com.ultranauts.pagetests.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.BaseTest@23529fee]" started-at="2021-02-06T03:31:48 CST" name="setup" finished-at="2021-02-06T03:31:53 CST" duration-ms="4793" status="PASS">
+    <test started-at="2021-02-09T03:52:24 CST" name="MS Edge Test" finished-at="2021-02-09T03:52:43 CST" duration-ms="19087">
+      <class name="com.ultranauts.pagetests.HerokuHomePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@2805c96b]" started-at="2021-02-09T03:52:24 CST" name="setup" finished-at="2021-02-09T03:52:28 CST" duration-ms="4285" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.BaseTest@23529fee]" started-at="2021-02-06T03:31:53 CST" name="homePageLinks" finished-at="2021-02-06T03:31:55 CST" duration-ms="1291" status="PASS">
+        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@2805c96b]" started-at="2021-02-09T03:52:28 CST" name="homePageLinks" finished-at="2021-02-09T03:52:34 CST" duration-ms="5117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.BaseTest@23529fee]" started-at="2021-02-06T03:31:55 CST" name="teardown" finished-at="2021-02-06T03:31:55 CST" duration-ms="878" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@2805c96b]" started-at="2021-02-09T03:52:34 CST" name="teardown" finished-at="2021-02-09T03:52:35 CST" duration-ms="1188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.BaseTest@23529fee]" started-at="2021-02-06T03:31:55 CST" name="setup" finished-at="2021-02-06T03:31:59 CST" duration-ms="3288" status="PASS">
+      </class> <!-- com.ultranauts.pagetests.HerokuHomePageTests -->
+      <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@184cf7cf]" started-at="2021-02-09T03:52:35 CST" name="setup" finished-at="2021-02-09T03:52:39 CST" duration-ms="4203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="autoPageFormEnterText()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@184cf7cf]" started-at="2021-02-09T03:52:39 CST" name="autoPageFormEnterText" finished-at="2021-02-09T03:52:42 CST" duration-ms="2757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoPageFormEnterText -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@184cf7cf]" started-at="2021-02-09T03:52:42 CST" name="teardown" finished-at="2021-02-09T03:52:43 CST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ultranauts.pagetests.HerokuAutoCompleteTests -->
+    </test> <!-- MS Edge Test -->
+    <test started-at="2021-02-09T03:52:43 CST" name="Chrome Test" finished-at="2021-02-09T03:52:58 CST" duration-ms="14902">
+      <class name="com.ultranauts.pagetests.HerokuHomePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@37918c79]" started-at="2021-02-09T03:52:43 CST" name="setup" finished-at="2021-02-09T03:52:47 CST" duration-ms="3474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +106,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="autoPageForm()[pri:1, instance:com.ultranauts.pagetests.BaseTest@23529fee]" started-at="2021-02-06T03:31:59 CST" name="autoPageForm" finished-at="2021-02-06T03:32:00 CST" duration-ms="1395" status="PASS">
+        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@37918c79]" started-at="2021-02-09T03:52:47 CST" name="homePageLinks" finished-at="2021-02-09T03:52:50 CST" duration-ms="3126" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoPageForm -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.BaseTest@23529fee]" started-at="2021-02-06T03:32:00 CST" name="teardown" finished-at="2021-02-06T03:32:01 CST" duration-ms="848" status="PASS">
+        </test-method> <!-- homePageLinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@37918c79]" started-at="2021-02-09T03:52:50 CST" name="teardown" finished-at="2021-02-09T03:52:51 CST" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.BaseTest -->
+      </class> <!-- com.ultranauts.pagetests.HerokuHomePageTests -->
+      <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@78e94dcf]" started-at="2021-02-09T03:52:51 CST" name="setup" finished-at="2021-02-09T03:52:54 CST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="autoPageFormEnterText()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@78e94dcf]" started-at="2021-02-09T03:52:54 CST" name="autoPageFormEnterText" finished-at="2021-02-09T03:52:57 CST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoPageFormEnterText -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@78e94dcf]" started-at="2021-02-09T03:52:57 CST" name="teardown" finished-at="2021-02-09T03:52:58 CST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ultranauts.pagetests.HerokuAutoCompleteTests -->
     </test> <!-- Chrome Test -->
   </suite> <!-- Practice Suite -->
 </testng-results>

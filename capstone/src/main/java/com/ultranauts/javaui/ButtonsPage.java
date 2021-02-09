@@ -13,7 +13,7 @@ public class ButtonsPage extends BasePage {
     }
 
     //*********Web Elements*********
-    By logoID = By.id("logo");
+    private By logoID = By.id("logo");
     
     public void navigateToHome(){
         click(logoID);

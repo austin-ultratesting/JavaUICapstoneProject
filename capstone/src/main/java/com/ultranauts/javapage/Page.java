@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  
 /**
 * An abstraction used to represent any instance of a Web Page typically used by
-* a web browser. Every Test that inherits from {@link com.ultranauts.pagetests.HerokuTest} will
+* a web browser. Every Test that inherits from {@link com.ultranauts.pagetests.HerokuHomePageTests} will
 * create a Page object which can then call on Pages classes following the POM Model.
 * <p>
 * The Page Classes was designed to have Generics implemented so that a user can
@@ -25,7 +25,7 @@ public class Page {
     /**
    * Selenium Web Driver Wait object to store the time out for operations
    */
-    protected WebDriverWait driverwait;
+    protected WebDriverWait wait;
     
     /**
     * Constructor method for all webpages. A Page requires a driver and a wait
@@ -37,7 +37,7 @@ public class Page {
     */
     public Page(WebDriver driver, WebDriverWait wait){
         this.driver = driver;
-        this.driverwait = wait;
+        this.wait = wait;
     }
 
     /** 
@@ -68,7 +68,7 @@ public class Page {
     //JAVA Generics to Create and return a New Page
     public  <T extends BasePage> T getInstance (Class<T> pageClass) {
         try {
-            return pageClass.getDeclaredConstructor(WebDriver.class, WebDriverWait.class).newInstance(this.driver, this.driverwait);
+            return pageClass.getDeclaredConstructor(WebDriver.class, WebDriverWait.class).newInstance(this.driver, this.wait);
         } catch (Exception e) {
             e.printStackTrace();
             return null;

@@ -5,6 +5,7 @@ import static org.openqa.selenium.Keys.TAB;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -37,6 +38,7 @@ public abstract class BasePage extends Page {
      */
     public void click (By elementLocation) {
         try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
             driver.findElement(elementLocation).click();
         }
         catch(StaleElementReferenceException e){
@@ -54,6 +56,7 @@ public abstract class BasePage extends Page {
      */
     public void writeText (By elementLocation, String text) {
         try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
             driver.findElement(elementLocation).sendKeys(text);
         }
         catch(StaleElementReferenceException e){
@@ -71,6 +74,7 @@ public abstract class BasePage extends Page {
      */
     public String readText (By elementLocation) {
         try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
             return driver.findElement(elementLocation).getText();
         }
         catch(StaleElementReferenceException e){
@@ -87,6 +91,7 @@ public abstract class BasePage extends Page {
      */
     public void sendTabKey(By elementLocation){
         try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
             driver.findElement(elementLocation).sendKeys(TAB);
         }
         catch(StaleElementReferenceException e){

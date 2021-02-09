@@ -14,13 +14,21 @@ public class HomePage extends BasePage {
     }
 
     //*********Page Variables*********
-    String baseURL = "https://formy-project.herokuapp.com/";
+    private String homePageURL = "https://formy-project.herokuapp.com/";
 
     //*********Web Elements*********
-    By logoID = By.id("logo");
-    By autoComplete = By.xpath("//a[contains(@href,'/autocomplete') and contains(@class,'btn btn-lg')]");
-    By buttons = By.xpath("//a[contains(@href,'/buttons') and contains(@class,'btn btn-lg')]");
-    By checkBox = By.xpath("//a[contains(@href,'/checkbox') and contains(@class,'btn btn-lg')]");
+    private By logoID = By.id("logo");
+    private By autoComplete = By.xpath("//a[contains(@href,'/autocomplete') and contains(@class,'btn btn-lg')]");
+    private By buttons = By.xpath("//a[contains(@href,'/buttons') and contains(@class,'btn btn-lg')]");
+    private By checkBox = By.xpath("//a[contains(@href,'/checkbox') and contains(@class,'btn btn-lg')]");
+
+    public String getHomePageURL() {
+        return this.homePageURL;
+    }
+
+    public void setHomePageURL(String baseURL) {
+        this.homePageURL = baseURL;
+    }
 
     public void navigateToHome(){
         click(logoID);
@@ -38,7 +46,7 @@ public class HomePage extends BasePage {
 
     public AutoCompletePage gotoAutoComplete(){
         click(autoComplete);
-        return new AutoCompletePage(driver,driverwait);
+        return new AutoCompletePage(driver,wait);
     }
 
     public HomePage clickButtons(){
@@ -52,7 +60,7 @@ public class HomePage extends BasePage {
     }
 
     public HomePage goToFormyProject() {
-        driver.get(baseURL);
+        driver.get(homePageURL);
         return this;
     }
 }
