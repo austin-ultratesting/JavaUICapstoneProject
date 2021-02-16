@@ -66,7 +66,7 @@ public class HerokuHomePageTests {
         page = new Page(driver,wait);
     }
 
-    @Test(priority = 0)
+    @Test(priority = 0, groups = { "heroku"})
     public void homePageLinks() {
       
         String homePage = page.getInstance(HomePage.class).getHomePageURL(); 

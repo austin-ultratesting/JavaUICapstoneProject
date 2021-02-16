@@ -21,13 +21,12 @@ public class HomePage extends BasePage {
     private By autoComplete = By.xpath("//a[contains(@href,'/autocomplete') and contains(@class,'btn btn-lg')]");
     private By buttons = By.xpath("//a[contains(@href,'/buttons') and contains(@class,'btn btn-lg')]");
     private By checkBox = By.xpath("//a[contains(@href,'/checkbox') and contains(@class,'btn btn-lg')]");
+    private By datepicker = By.xpath("//a[contains(@href,'/datepicker') and contains(@class,'btn btn-lg')]");
+    private By modal = By.xpath("//a[contains(@href,'/modal') and contains(@class,'btn btn-lg')]");
+
 
     public String getHomePageURL() {
         return this.homePageURL;
-    }
-
-    public void setHomePageURL(String baseURL) {
-        this.homePageURL = baseURL;
     }
 
     public void navigateToHome(){
@@ -44,11 +43,6 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    public AutoCompletePage gotoAutoComplete(){
-        click(autoComplete);
-        return new AutoCompletePage(driver,wait);
-    }
-
     public HomePage clickButtons(){
         click(buttons);
         return this;
@@ -56,6 +50,16 @@ public class HomePage extends BasePage {
 
     public HomePage clickCheckBox(){
         click(checkBox);
+        return this;
+    }
+
+    public HomePage clickDatepicker(){
+        click(datepicker);
+        return this;
+    }
+
+    public HomePage clickModal(){
+        click(modal);
         return this;
     }
 

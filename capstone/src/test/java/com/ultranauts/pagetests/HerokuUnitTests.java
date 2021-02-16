@@ -4,11 +4,16 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.LocalDate;
+import java.time.Month;
 import java.util.Iterator;
 import java.util.List;
 import com.ultranauts.javapage.Page;
 import com.ultranauts.javaui.AutoCompletePage;
+import com.ultranauts.javaui.CheckboxesPage;
+import com.ultranauts.javaui.DatepickerPage;
 import com.ultranauts.javaui.HomePage;
+import com.ultranauts.javaui.ModalPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
@@ -19,7 +24,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,7 +39,7 @@ public class HerokuUnitTests {
     @BeforeMethod
     public void setup() throws Exception {
 
-        String browser = "chrome";
+        String browser = "firefox";
 
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
@@ -68,19 +73,6 @@ public class HerokuUnitTests {
 
     @Test(priority = 0)
     public void homePageLinks() {
-        /* page.getInstance(HomePage.class).goToFormyProject()
-                                        .clickAutoComplete();
-                                        
-        page.getInstance(AutoCompletePage.class).navigateToHome();
-        
-        page.getInstance(HomePage.class).clickButtons();
-                                        
-        page.getInstance(ButtonsPage.class).navigateToHome();
-
-        page.getInstance(HomePage.class).clickCheckBox();
-
-        page.getInstance(CheckboxesPage.class).navigateToHome(); */
-
         String homePage = page.getInstance(HomePage.class).getHomePageURL(); 
 
         String url = "";
@@ -137,7 +129,7 @@ public class HerokuUnitTests {
     @Test (priority = 1)
     public void autoPageFormEnterText() {
         page.getInstance(HomePage.class).goToFormyProject()
-                                        .gotoAutoComplete();
+                                        .clickAutoComplete();
 
         page.getInstance(AutoCompletePage.class).enterAddress("6712 Kingsbury Dr.")
                                                 .switchToStreetAddressTextField()
@@ -152,6 +144,48 @@ public class HerokuUnitTests {
                                                 .enterZipCode("60842")
                                                 .switchToCountryTextField()
                                                 .enterCountry("United States");
+    }
+
+    @Test (priority = 2)
+    public void checkboxesActivateAndVerify() {
+        page.getInstance(HomePage.class).goToFormyProject()
+                                        .clickCheckBox();
+
+        page.getInstance(CheckboxesPage.class).clickCheckBox1()
+                                              .clickCheckBox2()
+                                              .clickCheckBox3();
+
+        boolean result = page.getInstance(CheckboxesPage.class).verifyAllCheckedBoxes();
+
+        System.out.println("Confirmed all checkboxes clicked:" + result);
+    }
+
+    @Test (priority = 3)
+    public void selectDate() {
+        page.getInstance(HomePage.class).goToFormyProject()
+                                        .clickDatepicker();
+
+        page.getInstance(DatepickerPage.class).clickDatePickerTextField();
+
+        LocalDate expected = LocalDate.of(2015, Month.DECEMBER, 20);
+
+        LocalDate selection = page.getInstance(DatepickerPage.class).chooseDate(expected);
+
+        System.out.println(selection);
+
+        Assert.assertEquals(selection, expected);
+    }
+
+    @Test (priority = 4)
+    public void exploreModal() {
+        page.getInstance(HomePage.class).goToFormyProject()
+                                        .clickModal();
+
+        page.getInstance(ModalPage.class).clickModalButton()
+                                         .clickOkButton()
+                                         .clickCloseButton()
+                                         .clickModalButton()
+                                         .clickXButton();
     }
     
     @AfterMethod

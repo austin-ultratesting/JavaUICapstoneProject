@@ -1,141 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="12" total="17" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-09T03:52:02 CST" name="Practice Suite" finished-at="2021-02-09T03:52:58 CST" duration-ms="56472">
+  <suite started-at="2021-02-16T00:15:22 CST" name="Practice Suite" finished-at="2021-02-16T00:22:44 CST" duration-ms="442905">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-02-09T03:52:02 CST" name="Firefox Test" finished-at="2021-02-09T03:52:24 CST" duration-ms="22420">
-      <class name="com.ultranauts.pagetests.HerokuHomePageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@4387b79e]" started-at="2021-02-09T03:52:02 CST" name="setup" finished-at="2021-02-09T03:52:09 CST" duration-ms="7354" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@4387b79e]" started-at="2021-02-09T03:52:09 CST" name="homePageLinks" finished-at="2021-02-09T03:52:13 CST" duration-ms="3573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@4387b79e]" started-at="2021-02-09T03:52:13 CST" name="teardown" finished-at="2021-02-09T03:52:14 CST" duration-ms="1607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.HerokuHomePageTests -->
-      <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@6e75aa0d]" started-at="2021-02-09T03:52:14 CST" name="setup" finished-at="2021-02-09T03:52:21 CST" duration-ms="6269" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="autoPageFormEnterText()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@6e75aa0d]" started-at="2021-02-09T03:52:21 CST" name="autoPageFormEnterText" finished-at="2021-02-09T03:52:23 CST" duration-ms="2101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- autoPageFormEnterText -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@6e75aa0d]" started-at="2021-02-09T03:52:23 CST" name="teardown" finished-at="2021-02-09T03:52:24 CST" duration-ms="1469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.HerokuAutoCompleteTests -->
+    <test started-at="2021-02-16T00:15:22 CST" name="Firefox Test" finished-at="2021-02-16T00:15:22 CST" duration-ms="28">
     </test> <!-- Firefox Test -->
-    <test started-at="2021-02-09T03:52:24 CST" name="MS Edge Test" finished-at="2021-02-09T03:52:43 CST" duration-ms="19087">
-      <class name="com.ultranauts.pagetests.HerokuHomePageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@2805c96b]" started-at="2021-02-09T03:52:24 CST" name="setup" finished-at="2021-02-09T03:52:28 CST" duration-ms="4285" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@2805c96b]" started-at="2021-02-09T03:52:28 CST" name="homePageLinks" finished-at="2021-02-09T03:52:34 CST" duration-ms="5117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@2805c96b]" started-at="2021-02-09T03:52:34 CST" name="teardown" finished-at="2021-02-09T03:52:35 CST" duration-ms="1188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.HerokuHomePageTests -->
-      <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@184cf7cf]" started-at="2021-02-09T03:52:35 CST" name="setup" finished-at="2021-02-09T03:52:39 CST" duration-ms="4203" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="autoPageFormEnterText()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@184cf7cf]" started-at="2021-02-09T03:52:39 CST" name="autoPageFormEnterText" finished-at="2021-02-09T03:52:42 CST" duration-ms="2757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- autoPageFormEnterText -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@184cf7cf]" started-at="2021-02-09T03:52:42 CST" name="teardown" finished-at="2021-02-09T03:52:43 CST" duration-ms="1533" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.HerokuAutoCompleteTests -->
+    <test started-at="2021-02-16T00:15:22 CST" name="MS Edge Test" finished-at="2021-02-16T00:15:22 CST" duration-ms="1">
     </test> <!-- MS Edge Test -->
-    <test started-at="2021-02-09T03:52:43 CST" name="Chrome Test" finished-at="2021-02-09T03:52:58 CST" duration-ms="14902">
-      <class name="com.ultranauts.pagetests.HerokuHomePageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@37918c79]" started-at="2021-02-09T03:52:43 CST" name="setup" finished-at="2021-02-09T03:52:47 CST" duration-ms="3474" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="homePageLinks()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@37918c79]" started-at="2021-02-09T03:52:47 CST" name="homePageLinks" finished-at="2021-02-09T03:52:50 CST" duration-ms="3126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLinks -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuHomePageTests@37918c79]" started-at="2021-02-09T03:52:50 CST" name="teardown" finished-at="2021-02-09T03:52:51 CST" duration-ms="1018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.HerokuHomePageTests -->
-      <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@78e94dcf]" started-at="2021-02-09T03:52:51 CST" name="setup" finished-at="2021-02-09T03:52:54 CST" duration-ms="3430" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="autoPageFormEnterText()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@78e94dcf]" started-at="2021-02-09T03:52:54 CST" name="autoPageFormEnterText" finished-at="2021-02-09T03:52:57 CST" duration-ms="2416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- autoPageFormEnterText -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultranauts.pagetests.HerokuAutoCompleteTests@78e94dcf]" started-at="2021-02-09T03:52:57 CST" name="teardown" finished-at="2021-02-09T03:52:58 CST" duration-ms="1436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ultranauts.pagetests.HerokuAutoCompleteTests -->
+    <test started-at="2021-02-16T00:15:22 CST" name="Chrome Test" finished-at="2021-02-16T00:15:22 CST" duration-ms="0">
     </test> <!-- Chrome Test -->
+    <test started-at="2021-02-16T00:15:22 CST" name="Regression Tests" finished-at="2021-02-16T00:22:44 CST" duration-ms="442706">
+      <class name="com.ultranauts.cucumber.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:15:22 CST" name="setUpClass" finished-at="2021-02-16T00:15:24 CST" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:15:24 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-16T00:16:05 CST" duration-ms="40580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the functinality of the Checkbox Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Heroku Applications and Webpages]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:16:05 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-16T00:20:14 CST" duration-ms="249038" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the behavior of the Modal Pagetitle"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Heroku Applications and Webpages]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 193a29605c7936c25e33b9cbbde41d5c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 193a29605c7936c25e33b9cbbde41d5c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.ultranauts.javaui.HomePage.goToFormyProject(HomePage.java:67)
+at com.ultranauts.cucumber.StepDefinition.i_am_on_the_modal_page(StepDefinition.java:92)
+at ✽.I am on the Modal Page(file:///c:/Users/A/Documents/VSCode/JavaUICapstoneProject/capstone/src/test/resources/features/heroku.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:20:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-16T00:21:04 CST" duration-ms="50090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the Date Picker can choose several dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Heroku Applications and Webpages]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:21:04 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-16T00:21:37 CST" duration-ms="33152" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the Date Picker can choose several dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Heroku Applications and Webpages]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ec702431df65d5e3f96498a873165e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13ec702431df65d5e3f96498a873165e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.ultranauts.javaui.HomePage.goToFormyProject(HomePage.java:67)
+at com.ultranauts.cucumber.StepDefinition.i_am_on_the_datepicker_page(StepDefinition.java:108)
+at ✽.I am on the Datepicker Page(file:///c:/Users/A/Documents/VSCode/JavaUICapstoneProject/capstone/src/test/resources/features/heroku.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:21:37 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-16T00:22:44 CST" duration-ms="66711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the Date Picker can choose several dates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Heroku Applications and Webpages]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ultranauts.cucumber.TestRunner@433d61fb]" started-at="2021-02-16T00:22:44 CST" name="tearDownClass" finished-at="2021-02-16T00:22:44 CST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ultranauts.cucumber.TestRunner -->
+    </test> <!-- Regression Tests -->
   </suite> <!-- Practice Suite -->
 </testng-results>

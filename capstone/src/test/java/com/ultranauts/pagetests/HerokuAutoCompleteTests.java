@@ -21,9 +21,9 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HerokuAutoCompleteTests {
-    protected WebDriver driver;
-    protected WebDriverWait wait;
-    protected Page page;
+    private WebDriver driver;
+    private WebDriverWait wait;
+    private Page page;
 
     @BeforeMethod
     @Parameters("browser")
@@ -59,10 +59,10 @@ public class HerokuAutoCompleteTests {
         page = new Page(driver,wait);
     }
 
-    @Test (priority = 0)
+    @Test (priority = 0, groups = { "heroku"})
     public void autoPageFormEnterText() {
         page.getInstance(HomePage.class).goToFormyProject()
-                                        .gotoAutoComplete();
+                                        .clickAutoComplete();
 
         page.getInstance(AutoCompletePage.class).enterAddress("6712 Kingsbury Dr.")
                                                 .switchToStreetAddressTextField()

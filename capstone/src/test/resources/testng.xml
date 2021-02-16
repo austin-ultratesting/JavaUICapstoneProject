@@ -3,23 +3,49 @@
 <suite name="Practice Suite">
   <test name="Firefox Test">
     <parameter name="browser" value="firefox" />
+    <groups>		
+      <run>		
+        <exclude name="heroku" />		
+      </run>		
+    </groups>
     <classes>
       <class name="com.ultranauts.pagetests.HerokuHomePageTests"/>
       <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests"/>
+      <class name="com.ultranauts.pagetests.HerokuCheckedBoxesTests"/>
+      <class name="com.ultranauts.pagetests.HerokuDatepickerPageTests"/>
     </classes>
   </test> <!-- Test -->
   <test name="MS Edge Test">
     <parameter name="browser" value="edge" />
+    <groups>		
+      <run>		
+        <exclude name="heroku" />		
+      </run>		
+    </groups>
     <classes>
       <class name="com.ultranauts.pagetests.HerokuHomePageTests"/>
       <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests"/>
+      <class name="com.ultranauts.pagetests.HerokuCheckedBoxesTests"/>
+      <class name="com.ultranauts.pagetests.HerokuDatepickerPageTests"/>
     </classes>
   </test>   
   <test name="Chrome Test">
     <parameter name="browser" value="chrome" />
+    <groups>		
+      <run>		
+        <exclude name="heroku" />		
+      </run>		
+    </groups>
     <classes>
       <class name="com.ultranauts.pagetests.HerokuHomePageTests"/>
       <class name="com.ultranauts.pagetests.HerokuAutoCompleteTests"/>
+      <class name="com.ultranauts.pagetests.HerokuCheckedBoxesTests"/>
+      <class name="com.ultranauts.pagetests.HerokuDatepickerPageTests"/>
     </classes>
   </test> <!-- Test --> 
+  <test name="Regression Tests">
+    <classes>
+        <class name="com.ultranauts.cucumber.TestRunner"/>
+    </classes>
+  </test>
 </suite> <!-- Suite -->
