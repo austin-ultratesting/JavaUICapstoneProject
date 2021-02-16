@@ -3,7 +3,7 @@ Feature: Heroku Applications and Webpages
     to highlight the useage of these technologies and a tutorial
     for someone to follow along
 
-    Scenario: Verify the functinality of the Checkbox Page
+    Scenario: Verify the functionality of the Checkbox Page
         Given I am on the Checkbox Page
         When I click on all checkboxes
         Then all the checkboxes will be active
@@ -12,7 +12,7 @@ Feature: Heroku Applications and Webpages
         Given I am on the Modal Page
         When I open the modal on the webpage
         Then I can close it with the close button
-    
+
     Scenario Outline: Verify that the Date Picker can choose several dates
         Given I am on the Datepicker Page
         When I click on the text field
