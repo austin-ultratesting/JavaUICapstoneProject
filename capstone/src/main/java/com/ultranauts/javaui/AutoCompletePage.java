@@ -6,6 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+* POM class made for the Auto Complete Page on Heroku Formy Project Webpage
+* @author Austin Bell
+*/ 
 public class AutoCompletePage extends BasePage{
 
 	public AutoCompletePage(WebDriver driver, WebDriverWait wait) {
