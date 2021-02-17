@@ -1,7 +1,0 @@
-com\ultranauts\pagetests\HerokuAutoCompleteTests.class
-com\ultranauts\pagetests\HerokuHomePageTests.class
-com\ultranauts\cucumber\TestRunner.class
-com\ultranauts\pagetests\HerokuUnitTests.class
-com\ultranauts\pagetests\HerokuCheckedBoxesTests.class
-com\ultranauts\pagetests\HerokuDatepickerPageTests.class
-com\ultranauts\cucumber\StepDefinition.class
