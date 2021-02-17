@@ -1,25 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 447.407 s <<< FAILURE! - in TestSuite
-com.ultranauts.cucumber.TestRunner.runScenario["Verify the behavior of the Modal Pagetitle", "Optional[Heroku Applications and Webpages]"](2)  Time elapsed: 267.343 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 193a29605c7936c25e33b9cbbde41d5c
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 261.714 s <<< FAILURE! - in TestSuite
+com.ultranauts.cucumber.TestRunner.runScenario["Verify Test", "Optional[Heroku Applications and Webpages]"](3)  Time elapsed: 12.18 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+There were 3 undefined steps
+The step "I am A" is undefined. You can implement it using the snippet(s) below:
 
-com.ultranauts.cucumber.TestRunner.runScenario["Verify that the Date Picker can choose several dates", "Optional[Heroku Applications and Webpages]"](4)  Time elapsed: 46.375 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 13ec702431df65d5e3f96498a873165e
+@Given("I am A")
+public void i_am_a() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "I do B" is undefined. You can implement it using the snippet(s) below:
+
+@When("I do B")
+public void i_do_b() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "I see C" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I see C")
+public void i_see_c() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
 

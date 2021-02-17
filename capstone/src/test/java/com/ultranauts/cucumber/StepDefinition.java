@@ -85,6 +85,7 @@ public class StepDefinition {
     public void all_the_checkboxes_will_be_active(){
         boolean result = page.getInstance(CheckboxesPage.class).verifyAllCheckedBoxes();
         System.out.println("Confirmed all checkboxes clicked:" + result);
+        Assert.assertTrue(result);
     }
 
     @Given("^I am on the Modal Page$")

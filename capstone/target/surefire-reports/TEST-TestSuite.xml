@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="447.407" tests="5" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="261.714" tests="6" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\Users\A\.cache\selenium\chromedriver\win32\88.0.4324.96\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\A\AppData\Local\Temp\surefire8770759579024467247\surefirebooter8975203403514125242.jar C:\Users\A\AppData\Local\Temp\surefire8770759579024467247 2021-02-16T00-15-15_028-jvmRun1 surefire13719091490965848768tmp surefire_014381447084140605319tmp"/>
+    <property name="sun.java.command" value="C:\Users\A\AppData\Local\Temp\surefire3630693772442901620\surefirebooter319976051018573168.jar C:\Users\A\AppData\Local\Temp\surefire3630693772442901620 2021-02-16T16-17-26_543-jvmRun1 surefire4717027338170264957tmp surefire_06707613656701697709tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\A\Documents\VSCode\JavaUICapstoneProject\capstone\target\test-classes;c:\Users\A\Documents\VSCode\JavaUICapstoneProject\capstone\target\classes;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\A\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\A\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\A\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\A\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\A\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\A\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\A\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\A\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\A\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\A\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\A\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\A\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\A\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\A\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\A\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\A\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\A\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\A\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\A\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\A\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\A\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\A\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\A\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\A\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\A\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\A\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\A\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\A\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\A\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\A\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\A\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\A\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-core\6.10.0\cucumber-core-6.10.0.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-gherkin\6.10.0\cucumber-gherkin-6.10.0.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.0\cucumber-gherkin-messages-6.10.0.jar;C:\Users\A\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\A\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\A\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\A\.m2\repository\io\cucumber\cucumber-plugin\6.10.0\cucumber-plugin-6.10.0.jar;C:\Users\A\.m2\repository\io\cucumber\docstring\6.10.0\docstring-6.10.0.jar;C:\Users\A\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\A\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\A\AppData\Local\Temp\surefire8770759579024467247\surefirebooter8975203403514125242.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\A\AppData\Local\Temp\surefire3630693772442901620\surefirebooter319976051018573168.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -57,102 +57,88 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify the functinality of the Checkbox Page&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](1)" classname="com.ultranauts.cucumber.TestRunner" time="44.412">
+  <testcase name="runScenario[&quot;Verify the functionality of the Checkbox Page&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](1)" classname="com.ultranauts.cucumber.TestRunner" time="44.891">
     <system-out><![CDATA[
-Scenario: Verify the functinality of the Checkbox Page &amp#27;[90m# src/test/resources/features/heroku.feature:6&amp#27;[0m
+Scenario: Verify the functionality of the Checkbox Page &amp#27;[90m# src/test/resources/features/heroku.feature:6&amp#27;[0m
 *******before SanitySmoke*******
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the Checkbox Page&amp#27;[0m                      &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_checkbox_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on all checkboxes&amp#27;[0m                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_click_on_all_checkboxes()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the Checkbox Page&amp#27;[0m                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_checkbox_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on all checkboxes&amp#27;[0m                        &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_click_on_all_checkboxes()&amp#27;[0m
 Confirmed all checkboxes clicked:true
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mall the checkboxes will be active&amp#27;[0m               &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.all_the_checkboxes_will_be_active()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mall the checkboxes will be active&amp#27;[0m                &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.all_the_checkboxes_will_be_active()&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 23968
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 43812
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 16, 2021 12:15:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 16, 2021 4:17:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify the behavior of the Modal Pagetitle&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](2)" classname="com.ultranauts.cucumber.TestRunner" time="267.343">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;FIBONACCI&apos;, ip: &apos;192.168.1.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 193a29605c7936c25e33b9cbbde41d5c" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 193a29605c7936c25e33b9cbbde41d5c
-]]></failure>
+  <testcase name="runScenario[&quot;Verify the behavior of the Modal Pagetitle&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](2)" classname="com.ultranauts.cucumber.TestRunner" time="16.38">
     <system-out><![CDATA[
 Scenario: Verify the behavior of the Modal Pagetitle &amp#27;[90m# src/test/resources/features/heroku.feature:11&amp#27;[0m
 *******before SanitySmoke*******
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI am on the Modal Page&amp#27;[0m                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_modal_page()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 193a29605c7936c25e33b9cbbde41d5c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.ultranauts.javaui.HomePage.goToFormyProject(HomePage.java:67)
-	at com.ultranauts.cucumber.StepDefinition.i_am_on_the_modal_page(StepDefinition.java:92)
-	at âœ½.I am on the Modal Page(file:///c:/Users/A/Documents/VSCode/JavaUICapstoneProject/capstone/src/test/resources/features/heroku.feature:12)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI open the modal on the webpage&amp#27;[0m               &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_open_the_modal_on_the_webpage()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI can close it with the close button&amp#27;[0m          &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_can_close_it_with_the_close_button()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 193a29605c7936c25e33b9cbbde41d5c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at com.ultranauts.cucumber.StepDefinition.tearDown(StepDefinition.java:137)
-&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the Modal Page&amp#27;[0m                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_modal_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the modal on the webpage&amp#27;[0m               &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_open_the_modal_on_the_webpage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI can close it with the close button&amp#27;[0m          &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_can_close_it_with_the_close_button()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 39276
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 37940
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 16, 2021 12:16:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 16, 2021 4:18:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1613456389.126][SEVERE]: Unable to receive message from renderer
-[1613456393.480][WARNING]: Timed out connecting to Chrome, retrying...
-[1613456405.697][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the Date Picker can choose several dates&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](3)" classname="com.ultranauts.cucumber.TestRunner" time="31.831">
+  <testcase name="runScenario[&quot;Verify Test&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](3)" classname="com.ultranauts.cucumber.TestRunner" time="12.18">
+    <failure message="There were 3 undefined steps&#10;The step &quot;I am A&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@Given(&quot;I am A&quot;)&#10;public void i_am_a() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;The step &quot;I do B&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@When(&quot;I do B&quot;)&#10;public void i_do_b() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;The step &quot;I see C&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@Then(&quot;I see C&quot;)&#10;public void i_see_c() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+There were 3 undefined steps
+The step "I am A" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am A")
+public void i_am_a() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "I do B" is undefined. You can implement it using the snippet(s) below:
+
+@When("I do B")
+public void i_do_b() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "I see C" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I see C")
+public void i_see_c() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></failure>
     <system-out><![CDATA[
-Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[90m# src/test/resources/features/heroku.feature:24&amp#27;[0m
+Scenario: Verify Test &amp#27;[90m# src/test/resources/features/heroku.feature:16&amp#27;[0m
+*******before SanitySmoke*******
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am A&amp#27;[0m        &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI do B&amp#27;[0m         &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI see C&amp#27;[0m        &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 17029
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 16, 2021 4:18:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that the Date Picker can choose several dates&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](4)" classname="com.ultranauts.cucumber.TestRunner" time="70.457">
+    <system-out><![CDATA[
+Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[90m# src/test/resources/features/heroku.feature:29&amp#27;[0m
 *******before SanitySmoke*******
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the Datepicker Page&amp#27;[0m                                    &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_datepicker_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the text field&amp#27;[0m                                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_click_on_the_text_field()&amp#27;[0m
@@ -160,90 +146,35 @@ Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[
 2010-10-16
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe full date should display on the text field&amp#27;[0m                   &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.the_full_date_should_display_on_the_text_field()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 1280
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 46586
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 16, 2021 12:20:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 16, 2021 4:19:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the Date Picker can choose several dates&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](4)" classname="com.ultranauts.cucumber.TestRunner" time="46.375">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;FIBONACCI&apos;, ip: &apos;192.168.1.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 13ec702431df65d5e3f96498a873165e" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 13ec702431df65d5e3f96498a873165e
-]]></failure>
+  <testcase name="runScenario[&quot;Verify that the Date Picker can choose several dates&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](5)" classname="com.ultranauts.cucumber.TestRunner" time="36.634">
     <system-out><![CDATA[
-Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[90m# src/test/resources/features/heroku.feature:25&amp#27;[0m
+Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[90m# src/test/resources/features/heroku.feature:30&amp#27;[0m
 *******before SanitySmoke*******
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI am on the Datepicker Page&amp#27;[0m                                    &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_datepicker_page()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 13ec702431df65d5e3f96498a873165e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.ultranauts.javaui.HomePage.goToFormyProject(HomePage.java:67)
-	at com.ultranauts.cucumber.StepDefinition.i_am_on_the_datepicker_page(StepDefinition.java:108)
-	at âœ½.I am on the Datepicker Page(file:///c:/Users/A/Documents/VSCode/JavaUICapstoneProject/capstone/src/test/resources/features/heroku.feature:17)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click on the text field&amp#27;[0m                                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_click_on_the_text_field()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI can select a date with &amp#27;[0m&amp#27;[36m&amp#27;[1m03&amp#27;[0m&amp#27;[36m, &amp#27;[0m&amp#27;[36m&amp#27;[1m8&amp#27;[0m&amp#27;[36m, and &amp#27;[0m&amp#27;[36m&amp#27;[1m2015&amp#27;[0m                        &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_can_select_a_date_with_and(int,int,int)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe full date should display on the text field&amp#27;[0m                   &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.the_full_date_should_display_on_the_text_field()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=88.0.4324.150)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'FIBONACCI', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\A\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 13ec702431df65d5e3f96498a873165e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at com.ultranauts.cucumber.StepDefinition.tearDown(StepDefinition.java:137)
-&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the Datepicker Page&amp#27;[0m                                    &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_datepicker_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the text field&amp#27;[0m                                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_click_on_the_text_field()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI can select a date with &amp#27;[0m&amp#27;[32m&amp#27;[1m03&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m, and &amp#27;[0m&amp#27;[32m&amp#27;[1m2015&amp#27;[0m                        &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_can_select_a_date_with_and(int,int,int)&amp#27;[0m
+2015-07-30
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe full date should display on the text field&amp#27;[0m                   &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.the_full_date_should_display_on_the_text_field()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 33905
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 12237
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 16, 2021 12:21:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 16, 2021 4:20:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify that the Date Picker can choose several dates&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](5)" classname="com.ultranauts.cucumber.TestRunner" time="52.091">
+  <testcase name="runScenario[&quot;Verify that the Date Picker can choose several dates&quot;, &quot;Optional[Heroku Applications and Webpages]&quot;](6)" classname="com.ultranauts.cucumber.TestRunner" time="75.221">
     <system-out><![CDATA[
-Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[90m# src/test/resources/features/heroku.feature:26&amp#27;[0m
+Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[90m# src/test/resources/features/heroku.feature:31&amp#27;[0m
 *******before SanitySmoke*******
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the Datepicker Page&amp#27;[0m                                    &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_am_on_the_datepicker_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the text field&amp#27;[0m                                       &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.i_click_on_the_text_field()&amp#27;[0m
@@ -251,11 +182,11 @@ Scenario Outline: Verify that the Date Picker can choose several dates &amp#27;[
 2000-05-24
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe full date should display on the text field&amp#27;[0m                   &amp#27;[90m# com.ultranauts.cucumber.StepDefinition.the_full_date_should_display_on_the_text_field()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 13132
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 17893
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 16, 2021 12:21:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 16, 2021 4:20:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
