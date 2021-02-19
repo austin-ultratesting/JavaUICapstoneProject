@@ -5,8 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         plugin = {"pretty",
-                "html:target/cucumber-reports/cucumber.html",
-                "json:target/cucumber-reports/cucumber.json"
+                "html:target/cucumber-reports-regular/cucumber.html",
+                "json:target/cucumber-json/cucumber.json"
         },
         features = {"src/test/resources/features"},
         glue = {"com.ultranauts.cucumber"}
